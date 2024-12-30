@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <title th:text="${title}">Strona Główna</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+<div>
+    <nav>
+        <ul>
+            <li><a th:href="@{/NetworkDisk/}">Dysk</a></li>
+            <li><a th:href="@{/Mongo}">Mongo</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Projekt NBD s22596</h1>
+        <img src="/images/PJATK_logo.png" alt="Logo" class="logo">
+    </main>
+</div>
+</body>
+</html>
