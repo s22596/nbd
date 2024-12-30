@@ -43,7 +43,8 @@ Po uruchomieniu aplikacji, program:
 3. Baza przechowuje strukturę i zawartość dysku **Z**.  
 
 Przykładowa zawartość bazy danych:
-
+![fs.chunks](src/main/resources/static/images/MondoDB_chunks.png)
+![fs.files](src/main/resources/static/images/MongoDb_files.png)
 ---
 
 ## ✨ Możliwości Programu
